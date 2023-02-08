@@ -1,0 +1,65 @@
+---
+import { Icon } from "astro-icon";
+import ContentSection from "~/components/content-section.astro";
+import type { FeatureItem } from "~/types";
+
+const features: Array<FeatureItem> = [
+  {
+    title: "Liquidity burned",
+    description:
+      "Aiming to build and enforce trust with the community and holders, all LP tokens were burnt and liquidity locked forever",
+    icon: "mdi:handshake",
+  },
+  {
+    title: "Mint disabled",
+    description:
+      "Thanks to mint authority disabled, $BUTTZ total supply is capped forever and any token can be ever minted",
+    icon: "mdi:chip",
+  },
+  {
+    title: "Recursive token burns",
+    description:
+      "With the purpose of dilute total supply, additional token burns are already planned and will happen recursively.",
+    icon: "mdi:fire",
+  },
+  {
+    title: "NFT Staking",
+    description:
+      "Stake your NFT token(s) to earn $BUTTZ rewards redeemable through raffle, merchandising, access to 'BUTTZPAY' raid to earn program and many moe utilites.",
+    icon: "mdi:flash",
+  },
+  {
+    title: "BUTTZPAY R2E",
+    description:
+      "Raid to earn program designed to maximise the power of community distributing payouts in BUTTZ, Solana or USDC to all elgibile @ButtzRaiders.",
+    icon: "mdi:cash-usd",
+  },
+  {
+    title: "DAO and Community",
+    description:
+      "Astro is an open source project powered by hundreds of contributors making thousands of individual contributions.",
+    icon: "mdi:account-group",
+  },
+];
+---
+
+<ContentSection title="$BUTTZ Token" id="buttz">
+  <Fragment slot="lead">
+    Built to rule the <span class="text-primary">Sol Buttz DAO</span> will be used as currency to mint the ultra-memeable<span class="text-primary">Sol Buttz</span> NFT collection.
+    <br>After mint, <span class="text-primary">$BUTTZ</span> will offer <span class="text-primary">multiple utilities</span> and passive icome opportunities to an always growing community of holders.
+ 
+  </Fragment>
+  <ul class="grid max-w-6xl grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+    {
+      features.map(({ title, description, icon }) => (
+        <li class="flex flex-col items-center gap-4 border border-default bg-offset p-6">
+          <div class="h-16 w-16 rounded-full border-2 border-current p-3">
+            <Icon name={icon} />
+          </div>
+          <p class="text-center font-extrabold text-xl">{title}</p>
+          <p class="text-center text-offset text-sm">{description}</p>
+        </li>
+      ))
+    }
+  </ul>
+</ContentSection>

@@ -1,0 +1,39 @@
+---
+import Link from "./ui/link.astro";
+import ContentSection from "~/components/content-section.astro";
+
+
+
+---
+
+<ContentSection title="Trade, swap and earn $BUTTZ" id="intro">
+
+<Fragment slot="lead">
+
+<span class="text-primary">$BUTTZ</span> is listed on all major <span class="text-primary">Solana DEX</span>.
+<br>Join liquidity pool farm on Raydium for collecting more rewards, or swap and place limit order through <span class="text-primary">Jupiter aggregator</span>.
+</Fragment>
+<html lang="en">
+  <head>
+    <script src="https://terminal.jup.ag/main.js" data-preload /></script>
+  </head>
+  
+<div
+class="bg-primary p-8 md:px-10 margin-top: 1px md:py-10 mt-2 mx-auto  max-w-xl rounded-lg flex flex-col items-center text-center">
+<body>
+  <div id="integrated-terminal">
+  </div> 
+    <script>
+      window.Jupiter.init({
+      cmode: 'default',
+      displayMode: 'integrated',
+      integratedTargetId: 'integrated-terminal',
+      mint: 'ButtzRVXEyHU8oxQmrUEpcTyE7qR9zGtyr43AVkYnuKK',
+      endpoint: "https://icy-proud-film.solana-mainnet.discover.quiknode.pro/67fb52f083689f0b86569a976b01ce9943195557/",
+      });
+    </script>
+</body>
+</html>
+</div>
+
+</ContentSection>

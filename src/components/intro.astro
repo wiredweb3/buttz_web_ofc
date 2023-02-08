@@ -1,0 +1,39 @@
+---
+import { Icon } from "astro-icon";
+import { Picture } from "@astrojs/image/components";
+import ContentSection from "~/components/content-section.astro";
+import buttztoken from "~/assets/buttztoken.png";
+
+const widths = [1000];
+const sizes = "(max-width: 60px) 20vw, 10vw";
+
+
+---
+
+<ContentSection title="Built with community in mind" id="intro">
+  <Fragment slot="lead">
+    $BUTTZ is a community-driven token aiming to provide a <span class="text-primary">multitude of utilities</span> and born to rule the
+    <span class="text-primary">Sol Buttz NFT</span> ecosystem.
+
+
+    <br /><br />Join our community and discover all
+    <span class="text-primary">$BUTTZ use cases</span> and the NFT collection.
+  </Fragment>
+  <div class="grid grid-cols-1 gap-2 sm:grid-cols-2">
+    <a
+      href="https://discord.gg/DtVMYaS2hx" target="_blank"
+      class="flex items-center justify-center gap-3 border-2 border-current px-6 py-4"
+    >
+      <Icon pack="mdi" name="discord" class="h-8" />
+      <span>Join Discord</span>
+    </a>
+    <a
+      href="https://twitter.com/sol_buttz" target="_blank"
+      class="flex items-center justify-center gap-3 border-2 border-current px-6 py-4"
+    >
+      <Icon pack="mdi" name="twitter" class="h-8" />
+      <span>Follow us</span>
+    </a>
+  
+  </div>
+</ContentSection>

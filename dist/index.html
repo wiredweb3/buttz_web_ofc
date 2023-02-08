@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full motion-safe:scroll-smooth" data-theme="dark">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="icon" href="/favicon.ico" type="image/svg+xml">
+    <meta name="generator" content="Astro v2.0.4">
+
+    <title>$BUTTZ DAO | Official website</title>
+    <meta name="description" content="Buzz fast websites, faster. Astro is a new kind of site builder for the modern web. Lightning-fast performance meets powerful developer experience.">
+
+    <!-- social media -->
+    <meta property="og:title" content="Astro">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="Buzz fast websites, faster. Astro is a new kind of site builder for the modern web. Lightning-fast performance meets powerful developer experience.">
+    <meta property="og:image" content="https://astro-moon-landing.netlify.app/social.jpg">
+    <meta property="og:url" content="https://astro-moon-landing.netlify.app/">
+    <meta name="twitter:card" content="summary_large_image">
+
+
+    <!-- initialize theme -->
+    <script>
+      const themeSaved = localStorage.getItem("theme");
+
+      if (themeSaved) {
+        document.documentElement.dataset.theme = themeSaved;
+      } else {
+        const prefersDark = window.matchMedia(
+          "(prefers-color-scheme: dark)"
+        ).matches;
+        document.documentElement.dataset.theme = prefersDark ? "dark" : "light";
+      }
+
+      window
+        .matchMedia("(prefers-color-scheme: dark)")
+        .addEventListener("change", (event) => {
+          if (!localStorage.getItem("theme")) {
+            document.documentElement.dataset.theme = event.matches
+              ? "dark"
+              : "light";
+          }
+        });
+    </script>
+
+  <link rel="stylesheet" href="/_astro/index.68b6d53d.css" /><script type="module" src="/_astro/hoisted.f96e6f9f.js"></script></head>
+  <body class="h-full overflow-x-hidden bg-default text-default text-base selection:bg-secondary selection:text-white">
+    <header id="page-header" class="absolute bottom-0 z-20 flex w-full items-center justify-between border-b border-transparent px-8 py-4 text-white astro-HPNW4VWY">
+  <a class="flex items-center gap-3 hover:!text-default astro-HPNW4VWY" href="#">
+    <h1 class="sr-only astro-HPNW4VWY">BUTTZ</h1>
+    <svg version="1.0" viewBox="0 0 800 800" class="h-24 astro-HPNW4VWY" astro-icon="logomark"><g fill="#fff"><path d="M385.5 91.6C277.1 97.3 180.9 160.2 132.4 257c-28.1 56-37.6 120.3-27.3 183 4.8 29 13.1 54.6 26.9 82.5 41.5 84.3 119.2 143.7 211 161.5 35.2 6.8 78.8 6.8 114 0 29.9-5.8 61.7-17.3 87.2-31.6 76.4-42.7 130.3-115.2 148.2-199.4 4.7-22.3 6.1-35.7 6.1-62 0-33.4-3-55.2-11.5-84.5-33.6-114.7-133.2-199.1-251.5-212.9-13.8-1.6-38.4-2.6-50-2zm51 16.9c33.1 4.4 61.8 13.1 91.3 27.9L541 143v48h15v-19c0-10.5.3-19 .6-19s4.5 2.8 9.2 6.2c34 24.5 62.8 56.9 83.1 93.3 36.5 65.6 45.1 145.5 23.6 219.4-13.9 47.7-42.3 93.6-78.5 126.7l-7.5 6.9-.3-15.8-.3-15.7H571v30h-75.9l-.3 7.7-.3 7.8-7.2.3-7.3.3V635h15v15h-15v13.9l-4.2.6c-2.4.3-5.9.6-7.8.8l-3.5.2-.3-7.8-.3-7.7H449v-15h15v-14.9l-7.2-.3-7.3-.3-.3-7.8-.3-7.7H403v-76h15v15h31v-15h-30v-7.4c0-8.7-.3-8.9-9.8-8.5l-5.7.3-.3-7.7-.3-7.7H388v-30h-15v-61l-2.3-.5c-1.3-.4-4.8-.5-7.8-.3l-5.4.3-.3 30.7-.2 30.8h14.9l.3 15.1.3 15.2 7.5.1 7.5.1.3 53.2.2 53.3h-14.9l-.3 7.7-.3 7.8-15.2.3-15.3.3V635h15v15h-15v16h7.5c7.4 0 7.5 0 7.5 2.6s-.1 2.6-5.2 2c-7.9-1-9.8-1.7-9.8-3.2 0-.9-1.2-1.4-3.7-1.4-2.1 0-5.5-.3-7.5-.6l-3.8-.7V650h-16.1l.3-7.3.3-7.2 7.8-.3 7.7-.3V620h-45.9l-.3-7.8-.3-7.7-7.2-.3-7.3-.3V589h-16v-46h14.9l.3 7.7.3 7.8h61l.3-7.8.3-7.7H266v-15h-30.9l-.3-7.8-.3-7.7H220V482h-15l.2 54 .3 54h-4.2c-3.9 0-4.6-.5-11.8-8.3-10.8-11.5-24.8-30.4-34-45.8-21.1-35.4-34.3-75.7-38.5-117.8-1.4-14.7-1.2-43.3.5-59.3 8.7-82.3 53.7-157.1 122.5-203.8l10.5-7.1.3 75.6.2 75.6 7.3-.3 7.2-.3.1-7.5.1-7.5 7.7-.3 7.6-.3V268h15v-14.9l7.8-.3 7.7-.3.3-7.8.3-7.7H327V115.3l9.8-2.1c13.2-2.9 27.2-5.1 40-6.2 14.4-1.2 44.9-.4 59.7 1.5zM464 666.9c0 .4-3.4 1.5-7.5 2.3l-7.5 1.5v-2.3c0-2.3.3-2.4 7.5-2.4 4.1 0 7.5.4 7.5.9z"/><path d="M556 207v15h14v-30h-14v15zM571.4 224.3c-.2.7-.3 7.4-.2 14.8l.3 13.4 7.8.3 7.7.3V268h14v-30h-15v-15h-7c-4.9 0-7.2.4-7.6 1.3zM602 299v30.1l7.3-.3 7.2-.3.3-29.8.2-29.7h-15v30zM236 306.5v7.5h14v-15h-14v7.5zM357.1 306.2l.2 7.3-7.6.3-7.7.3v14.8l7.7.3 7.6.3-.2 7.2-.2 7.3H373v15h15v-15h15v-15h15v-15h-15v-15h-15v15.1l-7.7-.3-7.8-.3-.3-7.3-.3-7.2h-15l.2 7.2zM220 322v7h15v-14h-15v7zM205.2 344.7l.3 14.8h14l.3-14.8.3-14.7h-15.2l.3 14.7zM617.2 397.7l.3 67.8 6.8.3 6.7.3V330h-14l.2 67.7zM190.7 360.6c-.4.4-.7 27.7-.7 60.6V481h14l-.2-60.3-.3-60.2-6-.3c-3.4-.2-6.4 0-6.8.4zM602.4 467.5c-.3.6-.3 14.1-.2 30l.3 29h14v-59l-6.9-.5c-4.2-.3-7-.1-7.2.5zM327 535.5v7.5h15v-15h-15v7.5zM587 550.5V573h14v-45h-14v22.5zM449 551v8h61v-16h-61v8zM327 642.5v7.5h15v-15h-15v7.5zM464 642.5v7.5h16v-15h-16v7.5z"/></g></svg>
+  </a>
+  <div class="astro-HPNW4VWY">
+    <div class="flex items-center gap-6 astro-HPNW4VWY">
+      <nav class="hidden sm:block astro-HPNW4VWY">
+        <ul class="flex items-center gap-6 astro-HPNW4VWY">
+          <li class="astro-HPNW4VWY">
+                <a class="text-sm astro-HPNW4VWY" href="#collection">
+                  The Collection
+                </a>
+              </li><li class="astro-HPNW4VWY">
+                <a class="text-sm astro-HPNW4VWY" href="#buttz">
+                  $BUTTZ
+                </a>
+              </li><li class="astro-HPNW4VWY">
+                <a class="text-sm astro-HPNW4VWY" href="#compatibility">
+                  Compatibility
+                </a>
+              </li>
+        </ul>
+      </nav>
+      <button id="open-nav-button" type="button" class="btn sm:hidden astro-HPNW4VWY" aria-label="Navigation">
+        <svg viewBox="0 0 24 24" class="h-8 astro-HPNW4VWY" astro-icon="mdi:menu"><path fill="currentColor" d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+      </button>
+      <!--
+  negative margin is sum of button width (8) and gap size of flex parent (6)
+  TODO don't hardcode these values
+--><button id="theme-switcher" type="button" class="-ml-14 origin-[right_center] scale-0 transition-all duration-500 astro-L4AEQEA3">
+  <div id="icon-theme-light" class="astro-L4AEQEA3">
+    <svg viewBox="0 0 512 512" class="h-8 astro-L4AEQEA3" astro-icon="theme/light"><defs><linearGradient id="astroicon:theme/lighta" x1="149.99" x2="234.01" y1="119.24" y2="264.76" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="currentColor"/><stop offset=".45" stop-color="currentColor"/><stop offset="1" stop-color="currentColor"/></linearGradient><symbol id="astroicon:theme/lightb" viewBox="0 0 384 384"><circle cx="192" cy="192" r="84" fill="url(#astroicon:theme/lighta)" stroke="currentColor" stroke-miterlimit="10" stroke-width="6"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="24" d="M192 61.66V12m0 360v-49.66m92.17-222.51 35.11-35.11M64.72 319.28l35.11-35.11m0-184.34L64.72 64.72m254.56 254.56-35.11-35.11M61.66 192H12m360 0h-49.66"><animateTransform additive="sum" attributeName="transform" dur="6s" repeatCount="indefinite" type="rotate" values="0 192 192; 45 192 192"/></path></symbol></defs><use xlink:href="#astroicon:theme/lightb" width="384" height="384" transform="translate(64 64)"/></svg>
+    <span class="sr-only astro-L4AEQEA3">Use light theme</span>
+  </div>
+  <div id="icon-theme-dark" class="hidden astro-L4AEQEA3">
+    <svg viewBox="0 0 512 512" class="h-8 astro-L4AEQEA3" astro-icon="theme/dark"><defs><linearGradient id="astroicon:theme/darkb" x1="54.33" x2="187.18" y1="29.03" y2="259.13" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="currentColor"/><stop offset=".45" stop-color="currentColor"/><stop offset="1" stop-color="currentColor"/></linearGradient><linearGradient id="astroicon:theme/darka" x1="294" x2="330" y1="112.82" y2="175.18" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="currentColor"/><stop offset=".45" stop-color="currentColor"/><stop offset="1" stop-color="currentColor"/></linearGradient><linearGradient xlink:href="#astroicon:theme/darka" id="astroicon:theme/darkc" x1="295.52" x2="316.48" y1="185.86" y2="222.14"/><linearGradient xlink:href="#astroicon:theme/darka" id="astroicon:theme/darkd" x1="356.29" x2="387.71" y1="194.78" y2="249.22"/><symbol id="astroicon:theme/darke" overflow="visible" viewBox="0 0 270 270"><path fill="url(#astroicon:theme/darkb)" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6" d="M252.25 168.63C178.13 168.63 118 109.35 118 36.21A130.48 130.48 0 0 1 122.47 3C55.29 10.25 3 66.37 3 134.58 3 207.71 63.09 267 137.21 267 199.69 267 252 224.82 267 167.79a135.56 135.56 0 0 1-14.75.84Z"><animateTransform additive="sum" attributeName="transform" dur="6s" repeatCount="indefinite" type="rotate" values="-15 135 135; 9 135 135; -15 135 135"/></path></symbol></defs><path fill="url(#astroicon:theme/darka)" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m282.83 162.84 24.93-6.42a1.78 1.78 0 0 1 1.71.46l18.37 18a1.8 1.8 0 0 0 3-1.73l-6.42-24.93a1.78 1.78 0 0 1 .46-1.71l18-18.37a1.8 1.8 0 0 0-1.73-3l-24.93 6.42a1.78 1.78 0 0 1-1.71-.46l-18.37-18a1.8 1.8 0 0 0-3 1.73l6.42 24.93a1.78 1.78 0 0 1-.46 1.71l-18 18.37a1.8 1.8 0 0 0 1.73 3Z"><animateTransform additive="sum" attributeName="transform" calcMode="spline" dur="6s" keySplines=".42, 0, .58, 1; .42, 0, .58, 1" repeatCount="indefinite" type="rotate" values="-15 312 144; 15 312 144; -15 312 144"/><animate attributeName="opacity" dur="6s" values="1; .75; 1; .75; 1; .75; 1"/></path><path fill="url(#astroicon:theme/darkc)" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m285.4 193.44 12 12.25a1.19 1.19 0 0 1 .3 1.14l-4.28 16.62a1.2 1.2 0 0 0 2 1.15l12.25-12a1.19 1.19 0 0 1 1.14-.3l16.62 4.28a1.2 1.2 0 0 0 1.15-2l-12-12.25a1.19 1.19 0 0 1-.3-1.14l4.28-16.62a1.2 1.2 0 0 0-2-1.15l-12.25 12a1.19 1.19 0 0 1-1.14.3l-16.62-4.28a1.2 1.2 0 0 0-1.15 2Z"><animateTransform additive="sum" attributeName="transform" begin="-.33s" calcMode="spline" dur="6s" keySplines=".42, 0, .58, 1; .42, 0, .58, 1" repeatCount="indefinite" type="rotate" values="-15 306 204; 15 306 204; -15 306 204"/><animate attributeName="opacity" begin="-.33s" dur="6s" values="1; .75; 1; .75; 1; .75; 1"/></path><path fill="url(#astroicon:theme/darkd)" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m337.32 223.73 24.8 6.9a1.83 1.83 0 0 1 1.25 1.25l6.9 24.8a1.79 1.79 0 0 0 3.46 0l6.9-24.8a1.83 1.83 0 0 1 1.25-1.25l24.8-6.9a1.79 1.79 0 0 0 0-3.46l-24.8-6.9a1.83 1.83 0 0 1-1.25-1.25l-6.9-24.8a1.79 1.79 0 0 0-3.46 0l-6.9 24.8a1.83 1.83 0 0 1-1.25 1.25l-24.8 6.9a1.79 1.79 0 0 0 0 3.46Z"><animateTransform additive="sum" attributeName="transform" begin="-.67s" calcMode="spline" dur="6s" keySplines=".42, 0, .58, 1; .42, 0, .58, 1" repeatCount="indefinite" type="rotate" values="-15 372 222; 15 372 222; -15 372 222"/><animate attributeName="opacity" begin="-.67s" dur="6s" values="1; .75; 1; .75; 1; .75; 1"/></path><use xlink:href="#astroicon:theme/darke" width="270" height="270" transform="translate(121 121)"/></svg>
+    <span class="sr-only astro-L4AEQEA3">Use dark theme</span>
+  </div>
+</button>
+
+
+    </div>
+    <div id="menu-modal" class="modal hidden astro-HPNW4VWY" aria-hidden="true">
+      <div class="fixed inset-0 bg-default px-8 py-4 text-default astro-HPNW4VWY">
+        <div class="space-y-4 astro-HPNW4VWY" role="dialog" aria-modal="true">
+          <header class="text-right astro-HPNW4VWY">
+            <button id="close-nav-button" type="button" class="btn astro-HPNW4VWY" aria-label="Close navigation">
+              <svg viewBox="0 0 24 24" class="h-8 astro-HPNW4VWY" astro-icon="mdi:close"><path fill="currentColor" d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+            </button>
+          </header>
+          <div class="flex justify-center astro-HPNW4VWY">
+            <svg version="1.0" viewBox="0 0 800 800" class="h-16 astro-HPNW4VWY" astro-icon="logomark"><g fill="#fff"><path d="M385.5 91.6C277.1 97.3 180.9 160.2 132.4 257c-28.1 56-37.6 120.3-27.3 183 4.8 29 13.1 54.6 26.9 82.5 41.5 84.3 119.2 143.7 211 161.5 35.2 6.8 78.8 6.8 114 0 29.9-5.8 61.7-17.3 87.2-31.6 76.4-42.7 130.3-115.2 148.2-199.4 4.7-22.3 6.1-35.7 6.1-62 0-33.4-3-55.2-11.5-84.5-33.6-114.7-133.2-199.1-251.5-212.9-13.8-1.6-38.4-2.6-50-2zm51 16.9c33.1 4.4 61.8 13.1 91.3 27.9L541 143v48h15v-19c0-10.5.3-19 .6-19s4.5 2.8 9.2 6.2c34 24.5 62.8 56.9 83.1 93.3 36.5 65.6 45.1 145.5 23.6 219.4-13.9 47.7-42.3 93.6-78.5 126.7l-7.5 6.9-.3-15.8-.3-15.7H571v30h-75.9l-.3 7.7-.3 7.8-7.2.3-7.3.3V635h15v15h-15v13.9l-4.2.6c-2.4.3-5.9.6-7.8.8l-3.5.2-.3-7.8-.3-7.7H449v-15h15v-14.9l-7.2-.3-7.3-.3-.3-7.8-.3-7.7H403v-76h15v15h31v-15h-30v-7.4c0-8.7-.3-8.9-9.8-8.5l-5.7.3-.3-7.7-.3-7.7H388v-30h-15v-61l-2.3-.5c-1.3-.4-4.8-.5-7.8-.3l-5.4.3-.3 30.7-.2 30.8h14.9l.3 15.1.3 15.2 7.5.1 7.5.1.3 53.2.2 53.3h-14.9l-.3 7.7-.3 7.8-15.2.3-15.3.3V635h15v15h-15v16h7.5c7.4 0 7.5 0 7.5 2.6s-.1 2.6-5.2 2c-7.9-1-9.8-1.7-9.8-3.2 0-.9-1.2-1.4-3.7-1.4-2.1 0-5.5-.3-7.5-.6l-3.8-.7V650h-16.1l.3-7.3.3-7.2 7.8-.3 7.7-.3V620h-45.9l-.3-7.8-.3-7.7-7.2-.3-7.3-.3V589h-16v-46h14.9l.3 7.7.3 7.8h61l.3-7.8.3-7.7H266v-15h-30.9l-.3-7.8-.3-7.7H220V482h-15l.2 54 .3 54h-4.2c-3.9 0-4.6-.5-11.8-8.3-10.8-11.5-24.8-30.4-34-45.8-21.1-35.4-34.3-75.7-38.5-117.8-1.4-14.7-1.2-43.3.5-59.3 8.7-82.3 53.7-157.1 122.5-203.8l10.5-7.1.3 75.6.2 75.6 7.3-.3 7.2-.3.1-7.5.1-7.5 7.7-.3 7.6-.3V268h15v-14.9l7.8-.3 7.7-.3.3-7.8.3-7.7H327V115.3l9.8-2.1c13.2-2.9 27.2-5.1 40-6.2 14.4-1.2 44.9-.4 59.7 1.5zM464 666.9c0 .4-3.4 1.5-7.5 2.3l-7.5 1.5v-2.3c0-2.3.3-2.4 7.5-2.4 4.1 0 7.5.4 7.5.9z"/><path d="M556 207v15h14v-30h-14v15zM571.4 224.3c-.2.7-.3 7.4-.2 14.8l.3 13.4 7.8.3 7.7.3V268h14v-30h-15v-15h-7c-4.9 0-7.2.4-7.6 1.3zM602 299v30.1l7.3-.3 7.2-.3.3-29.8.2-29.7h-15v30zM236 306.5v7.5h14v-15h-14v7.5zM357.1 306.2l.2 7.3-7.6.3-7.7.3v14.8l7.7.3 7.6.3-.2 7.2-.2 7.3H373v15h15v-15h15v-15h15v-15h-15v-15h-15v15.1l-7.7-.3-7.8-.3-.3-7.3-.3-7.2h-15l.2 7.2zM220 322v7h15v-14h-15v7zM205.2 344.7l.3 14.8h14l.3-14.8.3-14.7h-15.2l.3 14.7zM617.2 397.7l.3 67.8 6.8.3 6.7.3V330h-14l.2 67.7zM190.7 360.6c-.4.4-.7 27.7-.7 60.6V481h14l-.2-60.3-.3-60.2-6-.3c-3.4-.2-6.4 0-6.8.4zM602.4 467.5c-.3.6-.3 14.1-.2 30l.3 29h14v-59l-6.9-.5c-4.2-.3-7-.1-7.2.5zM327 535.5v7.5h15v-15h-15v7.5zM587 550.5V573h14v-45h-14v22.5zM449 551v8h61v-16h-61v8zM327 642.5v7.5h15v-15h-15v7.5zM464 642.5v7.5h16v-15h-16v7.5z"/></g></svg>
+          </div>
+          <nav class="astro-HPNW4VWY">
+            <ul class="flex flex-col astro-HPNW4VWY">
+              <li class="astro-HPNW4VWY">
+                    <a class="block py-4 text-center text-xl astro-HPNW4VWY" href="#collection">
+                      The Collection
+                    </a>
+                  </li><li class="astro-HPNW4VWY">
+                    <a class="block py-4 text-center text-xl astro-HPNW4VWY" href="#buttz">
+                      $BUTTZ
+                    </a>
+                  </li><li class="astro-HPNW4VWY">
+                    <a class="block py-4 text-center text-xl astro-HPNW4VWY" href="#compatibility">
+                      Compatibility
+                    </a>
+                  </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+
+<noscript>
+  <style>
+    #open-nav-button {
+      display: none;
+    }
+  </style>
+</noscript>
+    <section class="relative h-full bg-black astro-3EGMGWTG">
+  <div id="starfield" class="absolute inset-0">
+  <canvas id="starfield-canvas"></canvas>
+</div>
+  <!-- https://github.com/tholman/github-corners --><a href="https://github.com/wiredweb3" target="_blank" aria-label="View source on GitHub" class="absolute top-0 right-0 z-10 text-black hover:text-black focus:ring-0 focus:ring-offset-0 astro-DE3F4ZSP"><svg class="fill-white astro-DE3F4ZSP" width="80" height="80" viewBox="0 0 250 250" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z" class="astro-DE3F4ZSP"></path>
+    <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm astro-DE3F4ZSP"></path>
+    <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body astro-DE3F4ZSP"></path>
+  </svg>
+</a>
+  <div id="splash-bg-fallback" class="absolute inset-0 hidden opacity-40 astro-3EGMGWTG">
+    <picture>
+	<source type="image/avif" srcset="/_astro/moon.e37745fc_1vpp0o.avif 450w,/_astro/moon.e37745fc_Z1gq6ob.avif 800w,/_astro/moon.e37745fc_1yLRja.avif 1200w" sizes="100vw"><source type="image/webp" srcset="/_astro/moon.e37745fc_2eKdXa.webp 450w,/_astro/moon.e37745fc_Zx5hqp.webp 800w,/_astro/moon.e37745fc_2i7GgV.webp 1200w" sizes="100vw"><source type="image/jpeg" srcset="/_astro/moon.e37745fc_1GCzyJ.jpg 450w,/_astro/moon.e37745fc_Z1YYeYw.jpg 800w,/_astro/moon.e37745fc_Z2opzyr.jpg 1200w" sizes="100vw">
+	<img alt="The ridged surface of the moon" src="/_astro/moon.e37745fc_Z2opzyr.jpg" loading="lazy" decoding="async" alt="The ridged surface of the moon" class="object-cover w-full h-full">
+</picture>
+  </div>
+  <div class="relative grid h-full place-items-center sm:grid-cols-2 astro-3EGMGWTG">
+    <h2 class="flex flex-col gap-2 self-end sm:gap-4 sm:self-auto sm:justify-self-center astro-3EGMGWTG">
+     
+        <div class="gradient-text text-center font-extrabold tracking-tighter text-6xl astro-3EGMGWTG">A collection of
+        <div class="gradient-text text-center font-extrabold tracking-tighter text-8xl astro-3EGMGWTG">888 pixelated NFT</div>
+          <div class="gradient-text text-center font-extrabold tracking-tighter text-6xl astro-3EGMGWTG">fueled by $BUTTZ</div>
+    </div></h2>
+
+    <div id="buttztoken" class="w-2/3 max-w-3xl self-center sm:w-4/12 sm:self-center sm:justify-self-start astro-3EGMGWTG">
+      <picture>
+	<source type="image/avif" srcset="/_astro/buttztoken.e4fae945_gAUGP.avif 450w,/_astro/buttztoken.e4fae945_Z1oeOI6.avif 800w" sizes="(min-width: 640px) 42vw, 67vw"><source type="image/webp" srcset="/_astro/buttztoken.e4fae945_YVJEB.webp 450w,/_astro/buttztoken.e4fae945_ZET0Kk.webp 800w" sizes="(min-width: 640px) 42vw, 67vw"><source type="image/png" srcset="/_astro/buttztoken.e4fae945_Z1LxEUf.png 450w,/_astro/buttztoken.e4fae945_Z1EOG8f.png 800w" sizes="(min-width: 640px) 42vw, 67vw">
+	<img alt="$Buttz Token" src="/_astro/buttztoken.e4fae945_Z1EOG8f.png" loading="eager" decoding="async" alt="$Buttz Token" class="object-cover w-full h-full astro-3EGMGWTG">
+</picture>
+    </div>
+  </div>
+</section>
+
+<noscript>
+  <style>
+    #splash-bg-fallback {
+      display: block;
+    }
+  </style>
+</noscript>
+    <div class="space-y-4 px-8 py-28">
+      <section id="collection" class="flex scroll-mt-24 flex-col items-center gap-4 space-y-8">
+  <div class="flex flex-col items-center gap-4">
+    
+    <h2 class="gradient-text text-center font-extrabold tracking-tight text-6xl">
+      The Collection
+    </h2>
+  </div>
+  <p class="max-w-6xl text-center font-extrabold text-2xl">
+    <span class="text-primary">Sol Buttz</span> is a collection of <span class="text-primary">888 pixelated NFT</span>.<br>Created one by one by the pixel artist<span class="text-primary"> Daneli.sol</span>, the collection aim to become a viral meme on  <span class="text-primary">Solana NFT</span> space.
+  
+  </p>
+  <div class="max-w-3xl space-y-2">
+    <div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-8">
+
+      <picture>
+	<source type="image/avif" srcset="/_astro/1.da357401_1e694p.avif 1000w"><source type="image/webp" srcset="/_astro/1.da357401_1WqX2b.webp 1000w"><source type="image/png" srcset="/_astro/1.da357401_Z1pDLMm.png 1000w">
+	<img alt="Sol Buttz Collection" src="/_astro/1.da357401_Z1pDLMm.png" loading="lazy" decoding="async" alt="Sol Buttz Collection">
+</picture>
+
+    <picture>
+	<source type="image/avif" srcset="/_astro/2.89b3b313_MAA7b.avif 1000w"><source type="image/webp" srcset="/_astro/2.89b3b313_1vVp4W.webp 1000w"><source type="image/png" srcset="/_astro/2.89b3b313_ZLtmal.png 1000w">
+	<img alt="Sol Buttz Collection" src="/_astro/2.89b3b313_ZLtmal.png" loading="lazy" decoding="async" alt="Sol Buttz Collection">
+</picture>
+    <picture>
+	<source type="image/avif" srcset="/_astro/3.9fdeb1cb_kLDtd.avif 1000w"><source type="image/webp" srcset="/_astro/3.9fdeb1cb_147sqY.webp 1000w"><source type="image/png" srcset="/_astro/3.9fdeb1cb_1uHneS.png 1000w">
+	<img alt="Sol Buttz Collection" src="/_astro/3.9fdeb1cb_1uHneS.png" loading="lazy" decoding="async" alt="Sol Buttz Collection">
+</picture>
+    <picture>
+	<source type="image/avif" srcset="/_astro/4.6b428190_1WXutI.avif 1000w"><source type="image/webp" srcset="/_astro/4.6b428190_Z2nROmr.webp 1000w"><source type="image/png" srcset="/_astro/4.6b428190_SS0aq.png 1000w">
+	<img alt="Sol Buttz Collection" src="/_astro/4.6b428190_SS0aq.png" loading="lazy" decoding="async" alt="Sol Buttz Collection">
+</picture>
+    <picture>
+	<source type="image/avif" srcset="/_astro/5.116667c3_1V67g4.avif 1000w"><source type="image/webp" srcset="/_astro/5.116667c3_Z2pKcA6.webp 1000w"><source type="image/png" srcset="/_astro/5.116667c3_Z1IgWfM.png 1000w">
+	<img alt="Sol Buttz Collection" src="/_astro/5.116667c3_Z1IgWfM.png" loading="lazy" decoding="async" alt="Sol Buttz Collection">
+</picture>
+
+  <picture>
+	<source type="image/avif" srcset="/_astro/6.822a796a_Z2bi4y8.avif 1000w"><source type="image/webp" srcset="/_astro/6.822a796a_Z1rWfAm.webp 1000w"><source type="image/png" srcset="/_astro/6.822a796a_1fIN5k.png 1000w">
+	<img alt="Sol Buttz Collection" src="/_astro/6.822a796a_1fIN5k.png" loading="lazy" decoding="async" alt="Sol Buttz Collection">
+</picture>
+  <picture>
+	<source type="image/avif" srcset="/_astro/7.9bc58ab3_ZOvpP2.avif 1000w"><source type="image/webp" srcset="/_astro/7.9bc58ab3_Z6aARg.webp 1000w"><source type="image/png" srcset="/_astro/7.9bc58ab3_ZaDOzi.png 1000w">
+	<img alt="Sol Buttz Collection" src="/_astro/7.9bc58ab3_ZaDOzi.png" loading="lazy" decoding="async" alt="Sol Buttz Collection">
+</picture>
+  <picture>
+	<source type="image/avif" srcset="/_astro/8.42edb867_Z2h2bB0.avif 1000w"><source type="image/webp" srcset="/_astro/8.42edb867_Z1xGmDe.webp 1000w"><source type="image/png" srcset="/_astro/8.42edb867_ZxvMHX.png 1000w">
+	<img alt="Sol Buttz Collection" src="/_astro/8.42edb867_ZxvMHX.png" loading="lazy" decoding="async" alt="Sol Buttz Collection">
+</picture>
+  <picture>
+	<source type="image/avif" srcset="/_astro/9.a3726050_26NPhD.avif 1000w"><source type="image/webp" srcset="/_astro/9.a3726050_Z2f2tyw.webp 1000w"><source type="image/png" srcset="/_astro/9.a3726050_f8OQM.png 1000w">
+	<img alt="Sol Buttz Collection" src="/_astro/9.a3726050_f8OQM.png" loading="lazy" decoding="async" alt="Sol Buttz Collection">
+</picture>
+
+<picture>
+	<source type="image/avif" srcset="/_astro/10.42ab17e7_2hDmFw.avif 1000w"><source type="image/webp" srcset="/_astro/10.42ab17e7_Z24cWaD.webp 1000w"><source type="image/png" srcset="/_astro/10.42ab17e7_zuUpi.png 1000w">
+	<img alt="Sol Buttz Collection" src="/_astro/10.42ab17e7_zuUpi.png" loading="lazy" decoding="async" alt="Sol Buttz Collection">
+</picture>
+<picture>
+	<source type="image/avif" srcset="/_astro/11.75128b4c_fASVr.avif 1000w"><source type="image/webp" srcset="/_astro/11.75128b4c_XVHTd.webp 1000w"><source type="image/png" srcset="/_astro/11.75128b4c_2tzxjy.png 1000w">
+	<img alt="Sol Buttz Collection" src="/_astro/11.75128b4c_2tzxjy.png" loading="lazy" decoding="async" alt="Sol Buttz Collection">
+</picture>
+<picture>
+	<source type="image/avif" srcset="/_astro/12.990d9b45_Z2V68l.avif 1000w"><source type="image/webp" srcset="/_astro/12.990d9b45_FoHOq.webp 1000w"><source type="image/png" srcset="/_astro/12.990d9b45_Z97cxU.png 1000w">
+	<img alt="Sol Buttz Collection" src="/_astro/12.990d9b45_Z97cxU.png" loading="lazy" decoding="async" alt="Sol Buttz Collection">
+</picture>
+<picture>
+	<source type="image/avif" srcset="/_astro/13.d37c0e2a_1SljX8.avif 1000w"><source type="image/webp" srcset="/_astro/13.d37c0e2a_Z2suYS2.webp 1000w"><source type="image/png" srcset="/_astro/13.d37c0e2a_1nK4BQ.png 1000w">
+	<img alt="Sol Buttz Collection" src="/_astro/13.d37c0e2a_1nK4BQ.png" loading="lazy" decoding="async" alt="Sol Buttz Collection">
+</picture>
+
+<picture>
+	<source type="image/avif" srcset="/_astro/14.68debe0e_Z1niQvi.avif 1000w"><source type="image/webp" srcset="/_astro/14.68debe0e_ZDX2xw.webp 1000w"><source type="image/png" srcset="/_astro/14.68debe0e_1LkmNB.png 1000w">
+	<img alt="Sol Buttz Collection" src="/_astro/14.68debe0e_1LkmNB.png" loading="lazy" decoding="async" alt="Sol Buttz Collection">
+</picture>
+<picture>
+	<source type="image/avif" srcset="/_astro/15.5b0d757b_1SCdKb.avif 1000w"><source type="image/webp" srcset="/_astro/15.5b0d757b_Z2se65Y.webp 1000w"><source type="image/png" srcset="/_astro/15.5b0d757b_oIgtJ.png 1000w">
+	<img alt="Sol Buttz Collection" src="/_astro/15.5b0d757b_oIgtJ.png" loading="lazy" decoding="async" alt="Sol Buttz Collection">
+</picture>
+<picture>
+	<source type="image/avif" srcset="/_astro/16.d8112610_2qIhB9.avif 1000w"><source type="image/webp" srcset="/_astro/16.d8112610_Z1U82f1.webp 1000w"><source type="image/png" srcset="/_astro/16.d8112610_1oOJQS.png 1000w">
+	<img alt="Sol Buttz Collection" src="/_astro/16.d8112610_1oOJQS.png" loading="lazy" decoding="async" alt="Sol Buttz Collection">
+</picture>
+<picture>
+	<source type="image/avif" srcset="/_astro/17.3204760b_Z1ptgR9.avif 1000w"><source type="image/webp" srcset="/_astro/17.3204760b_ZG8rTn.webp 1000w"><source type="image/png" srcset="/_astro/17.3204760b_Z1kQkMB.png 1000w">
+	<img alt="Sol Buttz Collection" src="/_astro/17.3204760b_Z1kQkMB.png" loading="lazy" decoding="async" alt="Sol Buttz Collection">
+</picture>
+
+    <picture>
+	<source type="image/avif" srcset="/_astro/18.ace1e723_zC9HG.avif 1000w"><source type="image/webp" srcset="/_astro/18.ace1e723_1iWXFs.webp 1000w"><source type="image/png" srcset="/_astro/18.ace1e723_Z7RjTQ.png 1000w">
+	<img alt="Sol Buttz Collection" src="/_astro/18.ace1e723_Z7RjTQ.png" loading="lazy" decoding="async" alt="Sol Buttz Collection">
+</picture>
+    <picture>
+	<source type="image/avif" srcset="/_astro/19.2e99dc00_Z1TFJSN.avif 1000w"><source type="image/webp" srcset="/_astro/19.2e99dc00_Z1bkUV2.webp 1000w"><source type="image/png" srcset="/_astro/19.2e99dc00_ZmMpUH.png 1000w">
+	<img alt="Sol Buttz Collection" src="/_astro/19.2e99dc00_ZmMpUH.png" loading="lazy" decoding="async" alt="Sol Buttz Collection">
+</picture>
+    <picture>
+	<source type="image/avif" srcset="/_astro/20.39f25b03_Z79qXK.avif 1000w"><source type="image/webp" srcset="/_astro/20.39f25b03_BbmY1.webp 1000w"><source type="image/png" srcset="/_astro/20.39f25b03_uL3DJ.png 1000w">
+	<img alt="Sol Buttz Collection" src="/_astro/20.39f25b03_uL3DJ.png" loading="lazy" decoding="async" alt="Sol Buttz Collection">
+</picture>
+    <picture>
+	<source type="image/avif" srcset="/_astro/21.334ffd16_txlui.avif 1000w"><source type="image/webp" srcset="/_astro/21.334ffd16_1cSas4.webp 1000w"><source type="image/png" srcset="/_astro/21.334ffd16_Z84hyD.png 1000w">
+	<img alt="Sol Buttz Collection" src="/_astro/21.334ffd16_Z84hyD.png" loading="lazy" decoding="async" alt="Sol Buttz Collection">
+</picture>
+
+  <picture>
+	<source type="image/avif" srcset="/_astro/20.39f25b03_Z79qXK.avif 1000w"><source type="image/webp" srcset="/_astro/20.39f25b03_BbmY1.webp 1000w"><source type="image/png" srcset="/_astro/20.39f25b03_uL3DJ.png 1000w">
+	<img alt="Sol Buttz Collection" src="/_astro/20.39f25b03_uL3DJ.png" loading="lazy" decoding="async" alt="Sol Buttz Collection">
+</picture>
+  <picture>
+	<source type="image/avif" srcset="/_astro/23.148f68ec_16Ug5l.avif 1000w"><source type="image/webp" srcset="/_astro/23.148f68ec_1Pg537.webp 1000w"><source type="image/png" srcset="/_astro/23.148f68ec_Rcz7F.png 1000w">
+	<img alt="Sol Buttz Collection" src="/_astro/23.148f68ec_Rcz7F.png" loading="lazy" decoding="async" alt="Sol Buttz Collection">
+</picture>
+  <picture>
+	<source type="image/avif" srcset="/_astro/24.70327efd_cdmpH.avif 1000w"><source type="image/webp" srcset="/_astro/24.70327efd_Uybnt.webp 1000w"><source type="image/png" srcset="/_astro/24.70327efd_10plPg.png 1000w">
+	<img alt="Sol Buttz Collection" src="/_astro/24.70327efd_10plPg.png" loading="lazy" decoding="async" alt="Sol Buttz Collection">
+</picture>
+  <picture>
+	<source type="image/avif" srcset="/_astro/25.0f1b8b6b_Z1Qza9C.avif 1000w"><source type="image/webp" srcset="/_astro/25.0f1b8b6b_Z18elbQ.webp 1000w"><source type="image/png" srcset="/_astro/25.0f1b8b6b_2foWty.png 1000w">
+	<img alt="Sol Buttz Collection" src="/_astro/25.0f1b8b6b_2foWty.png" loading="lazy" decoding="async" alt="Sol Buttz Collection">
+</picture>
+
+<picture>
+	<source type="image/avif" srcset="/_astro/26.d0f8bbf8_e17HI.avif 1000w"><source type="image/webp" srcset="/_astro/26.d0f8bbf8_WlVFu.webp 1000w"><source type="image/png" srcset="/_astro/26.d0f8bbf8_ZMAp3g.png 1000w">
+	<img alt="Sol Buttz Collection" src="/_astro/26.d0f8bbf8_ZMAp3g.png" loading="lazy" decoding="async" alt="Sol Buttz Collection">
+</picture>
+<picture>
+	<source type="image/avif" srcset="/_astro/27.61761cda_VN64d.avif 1000w"><source type="image/webp" srcset="/_astro/27.61761cda_1F8U1Y.webp 1000w"><source type="image/png" srcset="/_astro/27.61761cda_1FTCbK.png 1000w">
+	<img alt="Sol Buttz Collection" src="/_astro/27.61761cda_1FTCbK.png" loading="lazy" decoding="async" alt="Sol Buttz Collection">
+</picture>
+<picture>
+	<source type="image/avif" srcset="/_astro/28.11e732f2_2wJx7V.avif 1000w"><source type="image/webp" srcset="/_astro/28.11e732f2_Z1O6LIe.webp 1000w"><source type="image/png" srcset="/_astro/28.11e732f2_Z1n53Ij.png 1000w">
+	<img alt="Sol Buttz Collection" src="/_astro/28.11e732f2_Z1n53Ij.png" loading="lazy" decoding="async" alt="Sol Buttz Collection">
+</picture>
+<picture>
+	<source type="image/avif" srcset="/_astro/29.2d088d8b_Z2sozgd.avif 1000w"><source type="image/webp" srcset="/_astro/29.2d088d8b_Z1J3Kir.webp 1000w"><source type="image/png" srcset="/_astro/29.2d088d8b_68os5.png 1000w">
+	<img alt="Sol Buttz Collection" src="/_astro/29.2d088d8b_68os5.png" loading="lazy" decoding="async" alt="Sol Buttz Collection">
+</picture>
+
+<picture>
+	<source type="image/avif" srcset="/_astro/30.feb67419_Z1XotqJ.avif 1000w"><source type="image/webp" srcset="/_astro/30.feb67419_Z1f3EsX.webp 1000w"><source type="image/png" srcset="/_astro/30.feb67419_25b8ns.png 1000w">
+	<img alt="Sol Buttz Collection" src="/_astro/30.feb67419_25b8ns.png" loading="lazy" decoding="async" alt="Sol Buttz Collection">
+</picture>
+<picture>
+	<source type="image/avif" srcset="/_astro/31.08cf5a7f_Z2tAIcA.avif 1000w"><source type="image/webp" srcset="/_astro/31.08cf5a7f_Z1KfTeO.webp 1000w"><source type="image/png" srcset="/_astro/31.08cf5a7f_2obw5u.png 1000w">
+	<img alt="Sol Buttz Collection" src="/_astro/31.08cf5a7f_2obw5u.png" loading="lazy" decoding="async" alt="Sol Buttz Collection">
+</picture>
+<picture>
+	<source type="image/avif" srcset="/_astro/32.59552c54_1zbpY2.avif 1000w"><source type="image/webp" srcset="/_astro/32.59552c54_2iweVN.webp 1000w"><source type="image/png" srcset="/_astro/32.59552c54_ZJVI8D.png 1000w">
+	<img alt="Sol Buttz Collection" src="/_astro/32.59552c54_ZJVI8D.png" loading="lazy" decoding="async" alt="Sol Buttz Collection">
+</picture>
+    </div>
+
+    <div class="grid grid-cols-3 gap-3 sm:grid-cols-1">
+
+      <a href="https://discord.gg/DtVMYaS2hx" target="_blank" class="flex items-center justify-center gap-3 border-2 border-current px-6 py-4">
+        <svg viewBox="0 0 24 24" class="h-8" astro-icon="mdi:discord"><path fill="currentColor" d="m22 24-5.25-5 .63 2H4.5A2.5 2.5 0 0 1 2 18.5v-15A2.5 2.5 0 0 1 4.5 1h15A2.5 2.5 0 0 1 22 3.5V24M12 6.8c-2.68 0-4.56 1.15-4.56 1.15 1.03-.92 2.83-1.45 2.83-1.45l-.17-.17c-1.69.03-3.22 1.2-3.22 1.2-1.72 3.59-1.61 6.69-1.61 6.69 1.4 1.81 3.48 1.68 3.48 1.68l.71-.9c-1.25-.27-2.04-1.38-2.04-1.38S9.3 14.9 12 14.9s4.58-1.28 4.58-1.28-.79 1.11-2.04 1.38l.71.9s2.08.13 3.48-1.68c0 0 .11-3.1-1.61-6.69 0 0-1.53-1.17-3.22-1.2l-.17.17s1.8.53 2.83 1.45c0 0-1.88-1.15-4.56-1.15m-2.07 3.79c.65 0 1.18.57 1.17 1.27 0 .69-.52 1.27-1.17 1.27-.64 0-1.16-.58-1.16-1.27 0-.7.51-1.27 1.16-1.27m4.17 0c.65 0 1.17.57 1.17 1.27 0 .69-.52 1.27-1.17 1.27-.64 0-1.16-.58-1.16-1.27 0-.7.51-1.27 1.16-1.27z"/></svg>
+        <span>Get whitelisted</span>
+      </a>  
+          
+    </div>
+
+  </div>
+</section>    </div>
+      <section id="buttz" class="flex scroll-mt-24 flex-col items-center gap-4 space-y-8">
+  <div class="flex flex-col items-center gap-4">
+    
+    <h2 class="gradient-text text-center font-extrabold tracking-tight text-6xl">
+      $BUTTZ Token
+    </h2>
+  </div>
+  <p class="max-w-6xl text-center font-extrabold text-2xl">
+    
+    Built to rule the <span class="text-primary">Sol Buttz DAO</span> will be used as currency to mint the ultra-memeable<span class="text-primary">Sol Buttz</span> NFT collection.
+    <br>After mint, <span class="text-primary">$BUTTZ</span> will offer <span class="text-primary">multiple utilities</span> and passive icome opportunities to an always growing community of holders.
+ 
+  
+  </p>
+  <ul class="grid max-w-6xl grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+    <li class="flex flex-col items-center gap-4 border border-default bg-offset p-6">
+          <div class="h-16 w-16 rounded-full border-2 border-current p-3">
+            <svg viewBox="0 0 24 24" astro-icon="mdi:handshake"><path fill="currentColor" d="M11 6h3l3.29-3.3a1 1 0 0 1 1.42 0l2.58 2.59a1 1 0 0 1 0 1.41L19 9h-8v2a1 1 0 0 1-1 1 1 1 0 0 1-1-1V8a2 2 0 0 1 2-2m-6 5v4l-2.29 2.29a1 1 0 0 0 0 1.41l2.58 2.59a1 1 0 0 0 1.42 0L11 17h4a1 1 0 0 0 1-1v-1h1a1 1 0 0 0 1-1v-1h1a1 1 0 0 0 1-1v-1h-7v1a2 2 0 0 1-2 2H9a2 2 0 0 1-2-2V9z"/></svg>
+          </div>
+          <p class="text-center font-extrabold text-xl">Liquidity burned</p>
+          <p class="text-center text-offset text-sm">Aiming to build and enforce trust with the community and holders, all LP tokens were burnt and liquidity locked forever</p>
+        </li><li class="flex flex-col items-center gap-4 border border-default bg-offset p-6">
+          <div class="h-16 w-16 rounded-full border-2 border-current p-3">
+            <svg viewBox="0 0 24 24" astro-icon="mdi:chip"><path fill="currentColor" d="M6 4h12v1h3v2h-3v2h3v2h-3v2h3v2h-3v2h3v2h-3v1H6v-1H3v-2h3v-2H3v-2h3v-2H3V9h3V7H3V5h3V4m5 11v3h1v-3h-1m2 0v3h1v-3h-1m2 0v3h1v-3h-1z"/></svg>
+          </div>
+          <p class="text-center font-extrabold text-xl">Mint disabled</p>
+          <p class="text-center text-offset text-sm">Thanks to mint authority disabled, $BUTTZ total supply is capped forever and any token can be ever minted</p>
+        </li><li class="flex flex-col items-center gap-4 border border-default bg-offset p-6">
+          <div class="h-16 w-16 rounded-full border-2 border-current p-3">
+            <svg viewBox="0 0 24 24" astro-icon="mdi:fire"><path fill="currentColor" d="M17.66 11.2c-.23-.3-.51-.56-.77-.82-.67-.6-1.43-1.03-2.07-1.66C13.33 7.26 13 4.85 13.95 3c-.95.23-1.78.75-2.49 1.32-2.59 2.08-3.61 5.75-2.39 8.9.04.1.08.2.08.33 0 .22-.15.42-.35.5-.23.1-.47.04-.66-.12a.58.58 0 0 1-.14-.17c-1.13-1.43-1.31-3.48-.55-5.12C5.78 10 4.87 12.3 5 14.47c.06.5.12 1 .29 1.5.14.6.41 1.2.71 1.73 1.08 1.73 2.95 2.97 4.96 3.22 2.14.27 4.43-.12 6.07-1.6 1.83-1.66 2.47-4.32 1.53-6.6l-.13-.26c-.21-.46-.77-1.26-.77-1.26m-3.16 6.3c-.28.24-.74.5-1.1.6-1.12.4-2.24-.16-2.9-.82 1.19-.28 1.9-1.16 2.11-2.05.17-.8-.15-1.46-.28-2.23-.12-.74-.1-1.37.17-2.06.19.38.39.76.63 1.06.77 1 1.98 1.44 2.24 2.8.04.14.06.28.06.43.03.82-.33 1.72-.93 2.27z"/></svg>
+          </div>
+          <p class="text-center font-extrabold text-xl">Recursive token burns</p>
+          <p class="text-center text-offset text-sm">With the purpose of dilute total supply, additional token burns are already planned and will happen recursively.</p>
+        </li><li class="flex flex-col items-center gap-4 border border-default bg-offset p-6">
+          <div class="h-16 w-16 rounded-full border-2 border-current p-3">
+            <svg viewBox="0 0 24 24" astro-icon="mdi:flash"><path fill="currentColor" d="M7 2v11h3v9l7-12h-4l4-8H7z"/></svg>
+          </div>
+          <p class="text-center font-extrabold text-xl">NFT Staking</p>
+          <p class="text-center text-offset text-sm">Stake your NFT token(s) to earn $BUTTZ rewards redeemable through raffle, merchandising, access to &#39;BUTTZPAY&#39; raid to earn program and many moe utilites.</p>
+        </li><li class="flex flex-col items-center gap-4 border border-default bg-offset p-6">
+          <div class="h-16 w-16 rounded-full border-2 border-current p-3">
+            <svg viewBox="0 0 24 24" astro-icon="mdi:cash-usd"><path fill="currentColor" d="M20 4H4c-1.11 0-2 .89-2 2v12a2 2 0 0 0 2 2h16c1.11 0 2-.89 2-2V6a2 2 0 0 0-2-2m-5 6h-4v1h3c.55 0 1 .45 1 1v3c0 .55-.45 1-1 1h-1v1h-2v-1H9v-2h4v-1h-3c-.55 0-1-.45-1-1V9c0-.55.45-1 1-1h1V7h2v1h2v2z"/></svg>
+          </div>
+          <p class="text-center font-extrabold text-xl">BUTTZPAY R2E</p>
+          <p class="text-center text-offset text-sm">Raid to earn program designed to maximise the power of community distributing payouts in BUTTZ, Solana or USDC to all elgibile @ButtzRaiders.</p>
+        </li><li class="flex flex-col items-center gap-4 border border-default bg-offset p-6">
+          <div class="h-16 w-16 rounded-full border-2 border-current p-3">
+            <svg viewBox="0 0 24 24" astro-icon="mdi:account-group"><path fill="currentColor" d="M12 5.5A3.5 3.5 0 0 1 15.5 9a3.5 3.5 0 0 1-3.5 3.5A3.5 3.5 0 0 1 8.5 9 3.5 3.5 0 0 1 12 5.5M5 8c.56 0 1.08.15 1.53.42-.15 1.43.27 2.85 1.13 3.96C7.16 13.34 6.16 14 5 14a3 3 0 0 1-3-3 3 3 0 0 1 3-3m14 0a3 3 0 0 1 3 3 3 3 0 0 1-3 3c-1.16 0-2.16-.66-2.66-1.62a5.536 5.536 0 0 0 1.13-3.96c.45-.27.97-.42 1.53-.42M5.5 18.25c0-2.07 2.91-3.75 6.5-3.75s6.5 1.68 6.5 3.75V20h-13v-1.75M0 20v-1.5c0-1.39 1.89-2.56 4.45-2.9-.59.68-.95 1.62-.95 2.65V20H0m24 0h-3.5v-1.75c0-1.03-.36-1.97-.95-2.65 2.56.34 4.45 1.51 4.45 2.9V20z"/></svg>
+          </div>
+          <p class="text-center font-extrabold text-xl">DAO and Community</p>
+          <p class="text-center text-offset text-sm">Astro is an open source project powered by hundreds of contributors making thousands of individual contributions.</p>
+        </li>
+  </ul>
+</section>
+      <div class="space-y-4 px-8 py-14"><<section id="intro" class="flex scroll-mt-24 flex-col items-center gap-4 space-y-8">
+  <div class="flex flex-col items-center gap-4">
+    
+    <h2 class="gradient-text text-center font-extrabold tracking-tight text-6xl">
+      Trade, swap and earn $BUTTZ
+    </h2>
+  </div>
+  <p class="max-w-6xl text-center font-extrabold text-2xl">
+    <span class="text-primary">$BUTTZ</span> is listed on all major <span class="text-primary">Solana DEX</span>.
+<br>Join liquidity pool farm on Raydium for collecting more rewards, or swap and place limit order through <span class="text-primary">Jupiter aggregator</span>.
+
+  </p>
+  <script src="https://terminal.jup.ag/main.js" data-preload></script>
+</section>
+  
+  
+<div class="bg-primary p-8 md:px-10 margin-top: 1px md:py-10 mt-2 mx-auto  max-w-xl rounded-lg flex flex-col items-center text-center">
+
+  <div id="integrated-terminal">
+  </div> 
+    
+</div></div>
+    <footer class="relative flex h-64 items-center justify-center">
+  <div class="absolute inset-0 overflow-hidden opacity-40">
+    <picture>
+	<source type="image/avif" srcset="/_astro/moon.e37745fc_1vpp0o.avif 450w,/_astro/moon.e37745fc_Z1gq6ob.avif 800w,/_astro/moon.e37745fc_1yLRja.avif 1200w" sizes="100vw"><source type="image/webp" srcset="/_astro/moon.e37745fc_2eKdXa.webp 450w,/_astro/moon.e37745fc_Zx5hqp.webp 800w,/_astro/moon.e37745fc_2i7GgV.webp 1200w" sizes="100vw"><source type="image/jpeg" srcset="/_astro/moon.e37745fc_1GCzyJ.jpg 450w,/_astro/moon.e37745fc_Z1YYeYw.jpg 800w,/_astro/moon.e37745fc_Z2opzyr.jpg 1200w" sizes="100vw">
+	<img alt="The ridged surface of the moon" src="/_astro/moon.e37745fc_Z2opzyr.jpg" loading="lazy" decoding="async" alt="The ridged surface of the moon" class="object-cover w-full h-full">
+</picture>
+  </div>
+  <ul class="relative grid grid-cols-2 gap-4 sm:grid-cols-4">
+    <li>
+          <a class="flex h-16 w-16 items-center justify-center rounded-full border-2 border-current p-4" href="https://astro.build/">
+            <span class="sr-only">Astro&#39;s official website</span>
+            <svg viewBox="0 0 24 24" class="h-full" astro-icon="mdi:home"><path fill="currentColor" d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8h5z"/></svg>
+          </a>
+        </li><li>
+          <a class="flex h-16 w-16 items-center justify-center rounded-full border-2 border-current p-4" href="https://github.com/mhyfritz/astro-landing-page">
+            <span class="sr-only">View source on GitHub</span>
+            <svg viewBox="0 0 480 512" class="h-full" astro-icon="fa-brands:github-alt"><path fill="currentColor" d="M186.1 328.7c0 20.9-10.9 55.1-36.7 55.1s-36.7-34.2-36.7-55.1 10.9-55.1 36.7-55.1 36.7 34.2 36.7 55.1zM480 278.2c0 31.9-3.2 65.7-17.5 95-37.9 76.6-142.1 74.8-216.7 74.8-75.8 0-186.2 2.7-225.6-74.8-14.6-29-20.2-63.1-20.2-95 0-41.9 13.9-81.5 41.5-113.6-5.2-15.8-7.7-32.4-7.7-48.8 0-21.5 4.9-32.3 14.6-51.8 45.3 0 74.3 9 108.8 36 29-6.9 58.8-10 88.7-10 27 0 54.2 2.9 80.4 9.2 34-26.7 63-35.2 107.8-35.2 9.8 19.5 14.6 30.3 14.6 51.8 0 16.4-2.6 32.7-7.7 48.2 27.5 32.4 39 72.3 39 114.2zm-64.3 50.5c0-43.9-26.7-82.6-73.5-82.6-18.9 0-37 3.4-56 6-14.9 2.3-29.8 3.2-45.1 3.2-15.2 0-30.1-.9-45.1-3.2-18.7-2.6-37-6-56-6-46.8 0-73.5 38.7-73.5 82.6 0 87.8 80.4 101.3 150.4 101.3h48.2c70.3 0 150.6-13.4 150.6-101.3zm-82.6-55.1c-25.8 0-36.7 34.2-36.7 55.1s10.9 55.1 36.7 55.1 36.7-34.2 36.7-55.1-10.9-55.1-36.7-55.1z"/></svg>
+          </a>
+        </li><li>
+          <a class="flex h-16 w-16 items-center justify-center rounded-full border-2 border-current p-4" href="https://astro.build/chat">
+            <span class="sr-only">Astro on Discord</span>
+            <svg viewBox="0 0 640 512" class="h-full" astro-icon="fa-brands:discord"><path fill="currentColor" d="M524.531 69.836a1.5 1.5 0 0 0-.764-.7A485.065 485.065 0 0 0 404.081 32.03a1.816 1.816 0 0 0-1.923.91 337.461 337.461 0 0 0-14.9 30.6 447.848 447.848 0 0 0-134.426 0 309.541 309.541 0 0 0-15.135-30.6 1.89 1.89 0 0 0-1.924-.91 483.689 483.689 0 0 0-119.688 37.107 1.712 1.712 0 0 0-.788.676C39.068 183.651 18.186 294.69 28.43 404.354a2.016 2.016 0 0 0 .765 1.375 487.666 487.666 0 0 0 146.825 74.189 1.9 1.9 0 0 0 2.063-.676A348.2 348.2 0 0 0 208.12 430.4a1.86 1.86 0 0 0-1.019-2.588 321.173 321.173 0 0 1-45.868-21.853 1.885 1.885 0 0 1-.185-3.126 251.047 251.047 0 0 0 9.109-7.137 1.819 1.819 0 0 1 1.9-.256c96.229 43.917 200.41 43.917 295.5 0a1.812 1.812 0 0 1 1.924.233 234.533 234.533 0 0 0 9.132 7.16 1.884 1.884 0 0 1-.162 3.126 301.407 301.407 0 0 1-45.89 21.83 1.875 1.875 0 0 0-1 2.611 391.055 391.055 0 0 0 30.014 48.815 1.864 1.864 0 0 0 2.063.7A486.048 486.048 0 0 0 610.7 405.729a1.882 1.882 0 0 0 .765-1.352c12.264-126.783-20.532-236.912-86.934-334.541zM222.491 337.58c-28.972 0-52.844-26.587-52.844-59.239s23.409-59.241 52.844-59.241c29.665 0 53.306 26.82 52.843 59.239 0 32.654-23.41 59.241-52.843 59.241zm195.38 0c-28.971 0-52.843-26.587-52.843-59.239s23.409-59.241 52.843-59.241c29.667 0 53.307 26.82 52.844 59.239 0 32.654-23.177 59.241-52.844 59.241z"/></svg>
+          </a>
+        </li><li>
+          <a class="flex h-16 w-16 items-center justify-center rounded-full border-2 border-current p-4" href="https://twitter.com/astrodotbuild">
+            <span class="sr-only">Astro on Twitter</span>
+            <svg viewBox="0 0 512 512" class="h-full" astro-icon="fa-brands:twitter"><path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+          </a>
+        </li>
+  </ul>
+</footer>
+  </body></html>
