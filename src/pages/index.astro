@@ -11,7 +11,7 @@ import Splash from "~/components/splash.astro";
 import "~/styles/index.css";
 
 const { generator, site } = Astro;
-const image = new URL("social.png", site);
+const image = new URL("social.jpg", site);
 const description =
   "Sol Buttz is a showcase of 888 pixelated artworks with their own story and personality, powered by $BUTTZ and residing on Solana blockchain.";
 ---
@@ -28,7 +28,7 @@ const description =
     <meta name="description" content={description} />
 
     <!-- social media -->
-    <meta property="og:title" content="BUTTZ" />
+    <meta property="og:title" content="BUTTZ | Official Website" />
     <meta property="og:type" content="website" />
     <meta property="og:description" content={description} />
     <meta property="og:image" content={image} />
