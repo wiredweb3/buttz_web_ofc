@@ -9,7 +9,5 @@
 
 ## Join our community
 **Twitter:** https://twitter.com/Sol_Buttz
-
 **Discord:** https://discord.me/buttz
-
 **Gitbook**: https://buttz.gitbook.io/solbuttz
