@@ -6,12 +6,18 @@ import type { NavItem } from "~/types";
 const navItems: Array<NavItem> = [
   { title: "The Collection", url: "#collection" },
   { title: "$BUTTZ", url: "#buttz" },
-  { title: "Compatibility", url: "#compatibility" },
+  { title: "Buy & Swap", url: "#swap" },
 
 ];
 ---
 
-<header id="page-header">
+<header id="page-header" class="absolute bottom-0 z-20 flex w-full items-center justify-between border-b border-transparent px-8 py-4 text-white"
+>
+  <a class="flex items-center gap-3 hover:!text-default" href="#">
+    <h1 class="sr-only">Astro</h1>
+    <Icon name="logomark" class="h-10" />
+    <Icon name="wordmark" class="hidden h-12 sm:block" />
+  </a>
   <div>
     <div class="flex items-center gap-6">
       <nav class="hidden sm:block">
