@@ -8,21 +8,22 @@ import ContentSection from "~/components/content-section.astro";
 
 <ContentSection title="Trade, swap and earn $BUTTZ" id="swap">
 
-<Fragment slot="lead">
+    <Fragment slot="lead">
 
-<span class="text-primary">$BUTTZ</span> is available for swap on all major <span class="text-primary">Solana DEX</span>.
-<br><br>Join liquidity pool farm on <a href="https://raydium.io/swap?inputCurrency=EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v&outputCurrency=ButtzRVXEyHU8oxQmrUEpcTyE7qR9zGtyr43AVkYnuKK&fixed=out" target="_blank"> Raydium </a> and earn $BUTTZ rewards, or swap and place limit order through <span class="text-primary">Jupiter aggregator</span>.
-</Fragment>
+      <span class="text-primary">$BUTTZ</span> is available for swap on all major <span class="text-primary">Solana DEX</span>.
+        <br>You can use the integrated terminal to swap through <br><span class="text-primary">Jupiter aggregator</span>.
+    </Fragment>
 <html lang="en">
   <head>
     <script src="https://terminal.jup.ag/main.js" data-preload /></script>
   </head>
   
+  
 <div
 class="bg-primary p-8 md:px-10 margin-top: 1px md:py-10 mt-2 mx-auto  max-w-xl rounded-lg flex flex-col items-center text-center">
-<body>
-  <div id="integrated-terminal">
-  </div> 
+  <body>
+    <div id="integrated-terminal">
+    </div> 
     <script>
       window.Jupiter.init({
       cmode: 'default',
@@ -32,8 +33,7 @@ class="bg-primary p-8 md:px-10 margin-top: 1px md:py-10 mt-2 mx-auto  max-w-xl r
       endpoint: "https://icy-proud-film.solana-mainnet.discover.quiknode.pro/67fb52f083689f0b86569a976b01ce9943195557/",
       });
     </script>
-</body>
-</html>
+  </body>
 </div>
-
+</html>
 </ContentSection>
