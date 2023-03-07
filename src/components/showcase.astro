@@ -5,38 +5,7 @@ import { getShowcase } from "~/data/showcase";
 import { Picture } from "@astrojs/image/components";
 import { Icon } from "astro-icon";
 
-import pic1 from "~/assets/pics/1.png"
-import pic2 from "~/assets/pics/2.png"
-import pic3 from "~/assets/pics/3.png"
-import pic4 from "~/assets/pics/4.png"
-import pic5 from "~/assets/pics/5.png"
-import pic6 from "~/assets/pics/6.png"
-import pic7 from "~/assets/pics/7.png"
-import pic8 from "~/assets/pics/8.png"
-import pic9 from "~/assets/pics/9.png"
-import pic10 from "~/assets/pics/10.png"
-import pic11 from "~/assets/pics/11.png"
-import pic12 from "~/assets/pics/12.png"
-import pic13 from "~/assets/pics/13.png"
-import pic14 from "~/assets/pics/14.png"
-import pic15 from "~/assets/pics/15.png"
-import pic16 from "~/assets/pics/16.png"
-import pic17 from "~/assets/pics/17.png"
-import pic18 from "~/assets/pics/18.png"
-import pic19 from "~/assets/pics/19.png"
-import pic20 from "~/assets/pics/20.png"
-import pic21 from "~/assets/pics/21.png"
-import pic22 from "~/assets/pics/22.png"
-import pic23 from "~/assets/pics/23.png"
-import pic24 from "~/assets/pics/24.png"
-import pic25 from "~/assets/pics/25.png"
-import pic26 from "~/assets/pics/26.png"
-import pic27 from "~/assets/pics/27.png"
-import pic28 from "~/assets/pics/28.png"
-import pic29 from "~/assets/pics/29.png"
-import pic30 from "~/assets/pics/30.png"
-import pic31 from "~/assets/pics/31.png"
-import pic32 from "~/assets/pics/32.png"
+import banner from "~/assets/pics/banner.png"
 
 
 
@@ -47,200 +16,47 @@ const sizes = "(max-width: 280px) 21vw, 21vw";
 
 <ContentSection title="The Collection" id="collection">
   <Fragment slot="lead">
-    <span class="text-primary">Sol Buttz</span> is a collection of <span class="text-primary">5000 pixelated NFT</span>  where every butt has their own story and personality.
-    <br>With artworks designed one by one by the pixel artist<span class="text-primary"> Daneli.sol</span>, the collection aim to become the most viral meme on<span class="text-primary"> Solana NFT</span> space.
+    <span class="text-primary">Sol Buttz</span> is a collection of <span class="text-primary">5000 pixelated NFT</span> with artworks designed one by one by the pixel artist<span class="text-primary"> Danelisol</span>.    
+    <br><br> Each NFT will allow to <span class="text-primary">earn staking rewards in $BUTTZ</span>, providing to holders a wide range of additional utilities.
+    <br><br><button type="button" class="text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"><a href="https://launchmynft.io/collections/7ZYXfeib6E1eLKntetgtnN3euWxVEasdwXehndLYTXb3/97M1KmEpJX6byjeKE4Z4" target="_blank">MINT NOW ON LMNFT</a></button>
+
  
   </Fragment>
-  <div class="max-w-3xl space-y-2">
-    <div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-8">
+  <div class="max-w-4xl space-y-2">
+    <div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-1">
 
       <Picture
-      src={pic1}
+      src={banner}
       widths={widths}
       alt="Sol Buttz Collection"
     />
 
-    <Picture
-      src={pic2}
-      widths={widths}
-      alt="Sol Buttz Collection"
-    />
-    <Picture
-      src={pic3}
-      widths={widths}
-      alt="Sol Buttz Collection"
-    />
-    <Picture
-      src={pic4}
-      widths={widths}
-      alt="Sol Buttz Collection"
-    />
-    <Picture
-    src={pic5}
-    widths={widths}
-    alt="Sol Buttz Collection"
-  />
-
-  <Picture
-    src={pic6}
-    widths={widths}
-    alt="Sol Buttz Collection"
-  />
-  <Picture
-    src={pic7}
-    widths={widths}
-    alt="Sol Buttz Collection"
-  />
-  <Picture
-    src={pic8}
-    widths={widths}
-    alt="Sol Buttz Collection"
-  />
-  <Picture
-  src={pic9}
-  widths={widths}
-  alt="Sol Buttz Collection"
-/>
-
-<Picture
-  src={pic10}
-  widths={widths}
-  alt="Sol Buttz Collection"
-/>
-<Picture
-  src={pic11}
-  widths={widths}
-  alt="Sol Buttz Collection"
-/>
-<Picture
-  src={pic12}
-  widths={widths}
-  alt="Sol Buttz Collection"
-/>
-<Picture
-src={pic13}
-widths={widths}
-alt="Sol Buttz Collection"
-/>
-
-<Picture
-src={pic14}
-widths={widths}
-alt="Sol Buttz Collection"
-/>
-<Picture
-src={pic15}
-widths={widths}
-alt="Sol Buttz Collection"
-/>
-<Picture
-src={pic16}
-widths={widths}
-alt="Sol Buttz Collection"
-/>
-<Picture
-      src={pic17}
-      widths={widths}
-      alt="Sol Buttz Collection"
-    />
-
-    <Picture
-      src={pic18}
-      widths={widths}
-      alt="Sol Buttz Collection"
-    />
-    <Picture
-      src={pic19}
-      widths={widths}
-      alt="Sol Buttz Collection"
-    />
-    <Picture
-      src={pic20}
-      widths={widths}
-      alt="Sol Buttz Collection"
-    />
-    <Picture
-    src={pic21}
-    widths={widths}
-    alt="Sol Buttz Collection"
-  />
-
-  <Picture
-    src={pic22}
-    widths={widths}
-    alt="Sol Buttz Collection"
-  />
-  <Picture
-    src={pic23}
-    widths={widths}
-    alt="Sol Buttz Collection"
-  />
-  <Picture
-    src={pic24}
-    widths={widths}
-    alt="Sol Buttz Collection"
-  />
-  <Picture
-  src={pic25}
-  widths={widths}
-  alt="Sol Buttz Collection"
-/>
-
-<Picture
-  src={pic26}
-  widths={widths}
-  alt="Sol Buttz Collection"
-/>
-<Picture
-  src={pic27}
-  widths={widths}
-  alt="Sol Buttz Collection"
-/>
-<Picture
-  src={pic28}
-  widths={widths}
-  alt="Sol Buttz Collection"
-/>
-<Picture
-src={pic29}
-widths={widths}
-alt="Sol Buttz Collection"
-/>
-
-<Picture
-src={pic30}
-widths={widths}
-alt="Sol Buttz Collection"
-/>
-<Picture
-src={pic31}
-widths={widths}
-alt="Sol Buttz Collection"
-/>
-<Picture
-src={pic32}
-widths={widths}
-alt="Sol Buttz Collection"
-/>
     </div>
 
-    <div class="grid grid-cols-3 gap-3 sm:grid-cols-2">
+    <div class="grid grid-cols-3 gap-3 sm:grid-cols-3">
+      
       <a
+      href="https://discord.gg/SFs72Xyhh3" target="_blank"
+      class="flex items-center justify-center gap-3 border-2 border-current px-6 py-4"
+    >
+      <Icon pack="mdi" name="discord" class="h-8" />
+      <span>Join Discord</span>
+    </a> 
+    <a
         href="https://buttz.gitbook.io/solbuttz/overview/sol-buttz-nft-collection" target="_blank"
         class="flex items-center justify-center gap-3 border-2 border-current px-6 py-4"
       >
         <Icon pack="mdi" name="book-open-variant" class="h-8" />
         <span>Read Gitbook</span>
-      </a> 
-
+      </a>
     <a
-    href="https://buttz.gitbook.io/solbuttz/overview/sol-buttz-nft-collection" target="_blank"
-    class="flex items-center justify-center gap-3 border-2 border-current px-6 py-4"
-  >
-    <Icon pack="mdi" name="dots-vertical-circle" class="h-8" />
-    <span>More info</span>
-  </a> 
-          
+      href="https://twitter.com/sol_buttz" target="_blank"
+      class="flex items-center justify-center gap-3 border-2 border-current px-6 py-4"
+    >
+      <Icon pack="mdi" name="twitter" class="h-8" />
+      <span>Follow us</span>
+    </a>
+                
     </div>
 
   </div>
