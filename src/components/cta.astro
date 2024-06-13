@@ -11,29 +11,8 @@ import ContentSection from "~/components/content-section.astro";
     <Fragment slot="lead">
 
       <span class="text-primary">$BUTTZ</span> is available for swap on all major <span class="text-primary">Solana DEX</span>.
-        <br>You can use the integrated terminal to swap through <br><span class="text-primary">Jupiter aggregator</span>.
+        <br>As soon as the token is listed on Jupiter and available for trading, you can use the integrated terminal to swap through <br><span class="text-primary">Jupiter aggregator</span>.
     </Fragment>
 <html lang="en">
-  <head>
-    <script src="https://terminal.jup.ag/main.js" data-preload /></script>
-  </head>
-  
-  
-<div
-class="bg-primary p-8 md:px-10 margin-top: 1px md:py-10 mt-2 mx-auto  max-w-xl rounded-lg flex flex-col items-center text-center">
-  <body>
-    <div id="integrated-terminal">
-    </div> 
-    <script>
-      window.Jupiter.init({
-      cmode: 'default',
-      displayMode: 'integrated',
-      integratedTargetId: 'integrated-terminal',
-      mint: 'ButtzRVXEyHU8oxQmrUEpcTyE7qR9zGtyr43AVkYnuKK',
-      endpoint: "https://icy-proud-film.solana-mainnet.discover.quiknode.pro/67fb52f083689f0b86569a976b01ce9943195557/",
-      });
-    </script>
-  </body>
-</div>
 </html>
 </ContentSection>
