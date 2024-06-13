@@ -1,5 +1,5 @@
-# Sol Buttz Official Website
-### Official Repository for Sol Buttz NFT and $Buttz token website
+# $Buttz Official Website
+### $Buttz token website // Official repository
 
 **Website:** https://buttz.vercel.app
 
@@ -8,6 +8,9 @@
 
 
 ## Join our community
+**Telegram:**
+https://t.me/buttzonsol
+
 **Twitter:** https://twitter.com/Sol_Buttz
 
 **Discord:** https://discord.me/buttz
