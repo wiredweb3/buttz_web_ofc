@@ -9,10 +9,10 @@
 
 ## Join our community
 **Telegram:**
-https://t.me/buttzonsol
+https://t.me/buttztoken
 
-**Twitter:** https://twitter.com/Sol_Buttz
+**Twitter:** https://x.com/buttz_ofc
 
 **Discord:** https://discord.me/buttz
 
-**Gitbook**: https://buttz.gitbook.io/solbuttz
+**BullX Trading Bot** https://t.me/BullxBetaBot?start=access_70BFD2OY8PA
