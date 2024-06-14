@@ -1,4 +1,4 @@
-# $Buttz Official Website
+# $Buttz Official repository
 ### $Buttz token website // Official repository
 
 **Website:** https://buttz.vercel.app
