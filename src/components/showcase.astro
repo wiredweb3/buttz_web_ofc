@@ -5,17 +5,17 @@ import { getShowcase } from "~/data/showcase";
 import { Picture } from "@astrojs/image/components";
 import { Icon } from "astro-icon";
 
-import banner from "~/assets/pics/banner.png"
+import banner from "~/assets/pics/dedust.jpg"
 
 const sites = await getShowcase();
 const widths=[1000];
 const sizes = "(max-width: 280px) 21vw, 21vw";
 ---
 
-<ContentSection title="NFT Collection" id="collection">
+<ContentSection title="Trade and swap $BUTTZ" id="collection">
   <Fragment slot="lead">
-    <span class="text-primary">Sol Buttz</span> is a collection of <span class="text-primary">only 340 pixelated NFT </span> with artworks designed one by one by the pixel artist<span class="text-primary"> Danelisol</span>.    
-    <br><br> Each NFT will allow to <span class="text-primary">earn staking rewards in $BUTTZ</span>, providing to holders a wide range of additional utilities.
+    After launch, <span class="text-primary">$BUTTZ</span> will be available for trading on <span class="text-primary">DeDust</span> and all others main Base DEX.
+        <br>Swap $BUTTZ directly from the official website through the integrated<br><span class="text-primary">UNISWAP</span> terminal.
     <br><br><button type="button" class="text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"><a href="https://magiceden.io/marketplace/sol_buttz" target="_blank">BUY ON MAGIC EDEN</a></button>
     <button type="button" class="text-gray-900 bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-red-100 dark:focus:ring-red-400 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"><a href="https://stake.cardinal.so/buttz" target="_blank">STAKE NFT ON CARDINAL</a></button>
    </Fragment>
