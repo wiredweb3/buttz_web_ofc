@@ -5,7 +5,7 @@ import { getShowcase } from "~/data/showcase";
 import { Picture } from "@astrojs/image/components";
 import { Icon } from "astro-icon";
 
-import banner from "~/assets/dedust.jpg"
+import banner from "~/assets/pics/banner.png"
 
 const sites = await getShowcase();
 const widths=[1000];
@@ -25,16 +25,9 @@ const sizes = "(max-width: 280px) 21vw, 21vw";
       <Picture
       src={banner}
       widths={widths}
-      alt="DeDust"
+      alt=""
     />
     </div>
-
-    <div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-1">
-      <Picture
-      src={banner}
-      widths={widths}
-      alt="DeDust"
-    />
     </div>
 
     <div class="grid grid-cols-3 gap-3 sm:grid-cols-3">
