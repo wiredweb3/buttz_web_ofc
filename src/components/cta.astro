@@ -14,17 +14,16 @@ import ContentSection from "~/components/content-section.astro";
         <br>Swap $BUTTZ directly from the official website through the integrated<br><span class="text-primary">UNISWAP</span> terminal.
     </Fragment>
 <html lang="en">
-<iframe src="https://app.uniswap.org/#/swap?outputCurrency=0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359"
-  height="660px"
-  width="100%"
-  style="
-    border: 0;
-    margin: 0 auto;
-    display: block;
-    border-radius: 10px;
-    max-width: 600px;
-    min-width: 300px;
-  "
-/>
+<div class="max-w-4xl space-y-2">
+    <div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-1">
+      <Picture
+      src={banner}
+      widths={widths}
+      alt="DeDust"
+    />
+    </div>
+</div>
+
+
 </html>
 </ContentSection>
