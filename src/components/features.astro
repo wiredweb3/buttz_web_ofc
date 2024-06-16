@@ -4,7 +4,14 @@ import ContentSection from "~/components/content-section.astro";
 import type { FeatureItem } from "~/types";
 
 const features: Array<FeatureItem> = [
-  {
+    {
+    title: "Fair launch",
+    description:
+      "
+No presales, honeypots or hefty insider allocations. Launching through GasPump ensures fair token distribution, reducing market manipulation and rug pull risks, where creators disappear with funds after a sell-off.",
+    icon: "mdi:fire",
+  },
+{
     title: "Supply burned",
     description:
       "When the fill goal on BaseJump is reached, funds will be used to pool the rest of the supply on UniSwap. Any remaining supply will be burned to respect the launch price.",
@@ -15,12 +22,6 @@ const features: Array<FeatureItem> = [
     description:
       "Thanks to mint authority disabled, $BUTTZ total supply is capped forever and any additional token can be ever minted.",
     icon: "mdi:chip",
-  },
-  {
-    title: "Fair Launch",
-    description:
-      "With the purpose of killing snipers and bots, $BUTTZ will be fairly launched through BaseJump. Tokens on BaseJump are launched on a bonding curve and are totally safe (no rugs, no honeypots).",
-    icon: "mdi:fire",
   },
   {
     title: "100%  community driven",
