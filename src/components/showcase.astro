@@ -6,6 +6,7 @@ import { Picture } from "@astrojs/image/components";
 import { Icon } from "astro-icon";
 
 import banner from "~/assets/pics/dedust.jpg"
+import banner2 from "~/assets/pics/gaspump.jpg"
 
 
 
@@ -27,6 +28,12 @@ const sizes = "(max-width: 280px) 21vw, 21vw";
 
       <Picture
       src={banner}
+      widths={widths}
+      alt="DeDust"
+    />
+
+      <Picture
+      src={banner2}
       widths={widths}
       alt="DeDust"
     />
