@@ -8,11 +8,8 @@
 
 
 ## Join our community
-**Telegram:**
-https://t.me/buttztoken
+**Telegram:** https://t.me/buttztoken
 
 **Twitter:** https://x.com/buttz_ofc
-
-**Discord:** https://discord.me/buttz
 
 **BullX Trading Bot** https://t.me/BullxBetaBot?start=access_70BFD2OY8PA
