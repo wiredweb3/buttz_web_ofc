@@ -3,6 +3,8 @@ import { Icon } from "astro-icon";
 import ContentSection from "~/components/content-section.astro";
 import type { FeatureItem } from "~/types";
 
+import banner2 from "~/assets/pics/gaspump.png"
+
 const features: Array<FeatureItem> = [
     {
     title: "Fair launch",
@@ -52,26 +54,12 @@ const features: Array<FeatureItem> = [
 
 
 <div class="max-w-4xl space-y-2">
-  <div class="grid grid-cols-3 gap-4 md:grid-cols-3 lg:grid-cols-3">
-      <a href="https://DeDust.io" target="_blank">
-      <Picture
-      src={banner}
-      widths={widths}
-      alt="$BUTTZ on DeDust"
-    />
-
-      <a href="https://gaspump.fun" target="_blank">
+  <div class="grid grid-cols-1 gap-4 md:grid-cols-1 lg:grid-cols-1">
+       <a href="https://gaspump.fun" target="_blank">
       <Picture
       src={banner2}
       widths={widths}
       alt="$BUTTZ on GasPump"
-    />
-      
-      <a href="https://DeDust.io" target="_blank">
-      <Picture
-      src={banner3}
-      widths={widths}
-      alt="$BUTTZ on Ston.fi"
     />
   </div>
 </div>
