@@ -6,7 +6,6 @@ import { Picture } from "@astrojs/image/components";
 import { Icon } from "astro-icon";
 
 import banner from "~/assets/pics/dedust.png"
-import banner2 from "~/assets/pics/gaspump.png"
 import banner3 from "~/assets/pics/stonfi.png"
 
 
@@ -23,7 +22,7 @@ const sizes = "(max-width: 280px) 21vw, 21vw";
 <br>Running on TON blockchain, <span class="text-primary">DeDust</span> and <span class="text-primary">Ston.fi</span> are AMM's and decentralized exchanges that ensure an healthier and safe trading environment.
 
 <div class="max-w-4xl space-y-2">
-  <div class="grid grid-cols-3 gap-4 md:grid-cols-3 lg:grid-cols-3">
+  <div class="grid grid-cols-2 gap-4 md:grid-cols-2 lg:grid-cols-2">
       <a href="https://DeDust.io" target="_blank">
       <Picture
       src={banner}
@@ -31,12 +30,6 @@ const sizes = "(max-width: 280px) 21vw, 21vw";
       alt="$BUTTZ on DeDust"
     />
 
-      <a href="https://gaspump.fun" target="_blank">
-      <Picture
-      src={banner2}
-      widths={widths}
-      alt="$BUTTZ on GasPump"
-    />
       
       <a href="https://DeDust.io" target="_blank">
       <Picture
