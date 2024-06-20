@@ -5,6 +5,10 @@ import type { FeatureItem } from "~/types";
 
 import banner2 from "~/assets/pics/gaspump.png";
 
+const sites = await getShowcase();
+const widths=[1000];
+const sizes = "(max-width: 280px) 21vw, 21vw";
+
 
 const features: Array<FeatureItem> = [
     {
